@@ -44,6 +44,10 @@ body {
   font-family: "new-science", Verdana, Tahoma, sans-serif;
   font-weight: 400;
   font-style: normal;
+}input.search::placeholder {
+  font-family: "new-science", Verdana, Tahoma, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1,
@@ -58,6 +62,11 @@ nav a {
 }
 
 /* Navigation */
+input.search::placeholder {
+  font-family: "new-science", Verdana, Tahoma, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Footer */
 footer h4 {
