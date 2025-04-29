@@ -1,0 +1,157 @@
+/* Use import to split up your CSS into manageable chunks */
+@import url("./_reset.css");
+/* Files that are only needed to be imported are called partials */
+/* These are marked with an underscore: */
+@import url("./_variables.css");
+/* Feel free to add as many of these imports as you need */
+
+body {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 var(--mobile-padding-x), 40px;
+}
+
+/* Navigation */
+nav,
+#menu-checkbox {
+  display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+header {
+  background: var(--off-white), #F6F5F2;
+  color: var(--purple);
+  min-height: 123px;
+  position: relative;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--blue-black);
+  transition: ease all .5s;
+}
+
+.logo {
+  width: 216px;
+  height: auto;
+}
+
+nav {
+  position: absolute;
+  top: 100%;  /* Places nav directly below header */
+  left: 0;
+  width: 100%;
+  background: var(--gray-2);
+  z-index: 100;
+}
+
+nav a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+nav ul,
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li,
+footer li {
+  list-style: none;
+}
+
+.nav-icon {
+  font-size: 18px;
+}
+
+/* Footer */
+.logo-footer {
+  width: 300px;
+  height: auto;
+  padding-bottom: 58px;
+  padding-top: 32px;
+}
+
+hr.footer {
+  border: none;
+  border-top: 2px solid var(--blue-black);
+  margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
+}
+
+.footer-content-column {
+  width: 50%;
+}
+
+.footer-content-column,
+.footer-content-row,
+.footer-bottom {
+  padding: 48px 0;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer h4,
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: var(--blue-black);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 25%;
+}
+
+.footer-content-column,
+.footer-content-row {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+footer ul,
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+footer a:hover {
+  color: var(--blue);
+  font-weight: 700;
+  text-decoration-thickness: 3px;
+  transition: color text-decoration 0.5s;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* align-items: center; */
+  gap: 32px;
+}
+
+.footer-bottom ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-bottom p,
+.footer-bottom a {
+  color: var(--blue);
+  font-size: 1.25;
+}
