@@ -17,6 +17,11 @@
         height: auto;
     }
 
+    nav,
+    .logo {
+        margin-bottom: 18px;
+    }
+
     .hamburger-icon {
         display: none;
     }
@@ -30,15 +35,32 @@
     }
 
     nav a {
-        display: inline-block;
         padding: 8px;
         text-decoration: none;
         font-size: 1rem;
         color: var(--blue-black), #0B1427;
+        border-bottom: none;
     }
+
+    nav li {
+        width: auto;
+      }
 
     .mobile-icon {
         display: none;
+    }
+
+    .desktop-search {
+        display: block;
+      }
+
+    /* Mobile search */
+    .mobile-search {
+        display: none;
+    }
+
+    .serch-flex {
+        margin-top: auto;
     }
 
     /* Footer */
@@ -47,6 +69,10 @@
         grid-template-columns: 1fr 1fr; /* Now only 2 columns */
         grid-template-rows: auto auto auto;
     }
+
+    .logo-footer {
+        width: 300px;
+      }
 
     .logo-area {
         grid-column: 1 / 3;
