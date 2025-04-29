@@ -1,0 +1,58 @@
+/* Buttons */
+
+
+/* Button colors */
+
+/* Navigation hovers */
+nav a.blue-hover:hover {
+    color: var(--off-white);
+    background-color: var(--blue);
+    transition: ease color 0.3s;
+}
+
+nav a.neon-green-hover:hover {
+    color: var(--blue-black);
+    background-color: var(--neon-green);
+    transition: ease color 0.3s;
+}
+
+nav a.purple-hover:hover {
+    color: var(--off-white);
+    background-color: var(--purple);
+    transition: ease color 0.3s;
+}
+
+nav a.blue-black-hover:hover {
+    color: var(--off-white);
+    background-color: var(--blue-black);
+    transition: ease color 0.3s;
+}
+
+nav a.blue-hover:hover .mobile-icon,
+nav a.purple-hover:hover .mobile-icon,
+nav a.blue-black-hover:hover .mobile-icon {
+    color: var(--off-white);
+}
+
+/* Footer */
+footer a {
+    color: var(--blue-black);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 25%;
+}
+
+footer a:hover {
+    color: var(--blue);
+    font-weight: 700;
+    text-decoration-thickness: 3px;
+    transition: color text-decoration 0.5s;
+}
+
+
+/* Breadcrumbs */
+
+
+/* Links */
+
+
+/* Search overlay */
