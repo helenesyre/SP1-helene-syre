@@ -1,7 +1,46 @@
 /* Buttons */
+.cta-l {
+    border-radius: 36px;
+    padding: 18px 48px;
+    font-size: 1.3rem;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
 
+.cta-l:hover {
+    box-shadow: 0px 10px 0px 0px #0B1427;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
 
 /* Button colors */
+.cta-blue {
+    background: var(--blue, #2C65F4);
+    color: var(--off-white);
+}
+
+.cta-blue:hover {
+    background: var( --blue-hover, #497DFF);
+}
+
+.cta-purple {
+    background: var(--purple, #6444DB);
+    color: var(--off-white);
+}
+
+.cta-purple:hover {
+    background: var( --purple-hover, #8160F8);
+}
+
+.cta-neon-green {
+    background: var(--neon-green, #D9F74F);
+    color: var(--off-white);
+}
+
+.cta-neon-green:hover {
+    background: var( --purple-hover, #E5FF6B);
+}
 
 /* Navigation hovers */
 nav a.blue-hover:hover {
