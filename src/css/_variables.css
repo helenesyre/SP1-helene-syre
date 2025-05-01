@@ -39,7 +39,7 @@
   --mobile-padding-x: 40px;
 }
 
-/* fonts */
+/* Fonts */
 body {
   font-family: "new-science", Verdana, Tahoma, sans-serif;
   font-weight: 400;
@@ -52,7 +52,7 @@ body {
 
 h1,
 h2,
-h3
+h3,
 h4,
 nav a {
   font-family: "Poetsen One", sans-serif;
@@ -83,4 +83,13 @@ footer h4 {
   font-style: normal;
   color: var(--purple);
   font-size: 1.25rem;
+}
+
+/* Colors */
+.color-blue {
+  color: var(--blue);
+}
+
+.color-purple {
+  color: var(--purple);
 }
