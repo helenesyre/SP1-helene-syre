@@ -149,18 +149,7 @@
     }
 
     /* Image layout */
-    .zigzag-flex {
-        flex-direction: row;
-        justify-content: space-between;
-    }
 
-    .margin-bottom {
-        margin-bottom: 80px;
-    }
-    
-    .margin-top {
-        margin-top: 80px;
-    }
     
 }
   
