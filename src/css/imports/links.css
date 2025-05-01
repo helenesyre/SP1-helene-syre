@@ -1,18 +1,10 @@
-/* Buttons */
-.cta-l {
-    border-radius: 36px;
-    padding: 18px 48px;
-    font-size: 1.3rem;
-    display: inline-block;
-    text-decoration: none;
-    border: none;
-}
+/* Breadcrumbs */
 
-.cta-l:hover {
-    box-shadow: 0px 10px 0px 0px #0B1427;
-    transform: translateY(-10px);
-    transition: all 0.3s ease-in-out;
-}
+
+/* Links */
+
+
+/* Search overlay */
 
 /* Button colors */
 .cta-blue {
@@ -87,11 +79,26 @@ footer a:hover {
     transition: color text-decoration 0.5s;
 }
 
+/* Buttons */
+.cta-l {
+    border-radius: 36px;
+    padding: 14px 38px;
+    font-size: 1.2rem;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
 
-/* Breadcrumbs */
+.cta-l:hover {
+    box-shadow: 0px 10px 0px 0px #0B1427;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
 
-
-/* Links */
-
-
-/* Search overlay */
+@media (min-width: 1200px) {
+    .cta-l {
+        padding: 18px 48px;
+        font-size: 1.3rem;
+        transition: all 0.5s;
+    }
+}
