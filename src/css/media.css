@@ -4,6 +4,10 @@
         padding: 0 var(--ipad-padding-x, 80px);
     }
 
+    hr {
+        margin: 0 calc(var(--ipad-padding-x, 80px) *-1);
+    }
+
     /* Navigation */
     header {
         align-items: flex-end;
@@ -111,6 +115,25 @@
     .info-area {
         border-right: 2px solid var(--blue-black);
     }
+
+    /* Homepage */
+    .hero {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero-image {
+        margin: 0 calc(var(--ipad-padding-x, 80px) *-1) 0 0;
+        width: 50vw;
+    }
+
+    .hero-image-container {
+        flex: 1;
+    }
+
+    .hero-info {
+        flex: 1;
+    }
     
 }
   
@@ -120,7 +143,14 @@
         padding: 0 var(--padding-x, 120px);
     }
 
+    hr {
+        margin: 0 calc(var(--padding-x, 120px) *-1);
+    }
+
     /* Footer */
+    footer {
+        margin-top: 80px;
+    }
     /* Footer borders */    
     .logo-area {
         padding-bottom: 40px;
@@ -133,27 +163,22 @@
         padding-bottom: 64px;
         padding-top: 64px;
     }
+
+    /* Homepage */
+    .hero-image {
+        margin: 0 calc(var(--padding-x, 120px) *-1) 0 0;
+        max-height: 80vh;
+    }
+
+    /* Hero */
+    .hero-title {
+        font-size: 3rem;
+        transition: ease all 0.5s;
+    }
+
 }
 
 @media (min-width: 1600px) {
-    .info-area.container {
-        padding-left: 0 var(--padding-x, 120px);
-        padding-right: 0 var(--padding-x, 120px);
-    }
-
-    .info-area .footer-info {
-        padding: 0px 50px;
-    }
-
-    .list-area.container {
-        padding-left: 0 var(--padding-x, 120px);
-    }
-
-    .list-area .padding-footer {
-        padding-left: 72px;
-    }
-
-
     /* Footer */
     footer {
         grid-template-columns: 0.5fr 0.5fr 1fr;
@@ -186,6 +211,23 @@
     }
 
     /* Footer borders */
+    .info-area.container {
+        padding-left: 0 var(--padding-x, 120px);
+        padding-right: 0 var(--padding-x, 120px);
+    }
+
+    .info-area .footer-info {
+        padding: 0px 50px;
+    }
+
+    .list-area.container {
+        padding-left: 0 var(--padding-x, 120px);
+    }
+
+    .list-area .padding-footer {
+        padding-left: 72px;
+    }
+
     .logo-area {
         padding-bottom: 24px;
         padding-top: 40px;
@@ -206,4 +248,5 @@
     .logo-area {
         border-right: 2px solid var(--blue-black);
     }
+
 }
