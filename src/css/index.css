@@ -1,0 +1,91 @@
+/* Hero section */
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-info {
+    padding: 56px 0;
+}
+
+.hero-image {
+    aspect-ratio: 1/1;
+    margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
+    width: 100vw;
+    display: block;
+    height: 100%;
+}
+
+/* Card */
+.explore-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    padding: 24px 24px 40px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    border: 2px solid var(--Primary-Blue-Black, #0B1427);
+    box-shadow: 8px 8px 0px 0px #000;
+}
+
+.card p {
+    font-size: 1.125rem;
+}
+
+.bg-neon-green {
+    background: var(--neon-green);
+    color: var(--blue-black);
+}
+
+.bg-purple {
+    background: var(--purple);
+    color: var(--off-white);
+}
+
+.bg-blue {
+    background: var(--blue);
+    color: var(--off-white);
+}
+
+.explore-icon {
+    width: auto;
+    height: 64px;
+}
+
+/* Image layout */
+.img-playgrounds-layout {
+    text-align: center;
+}
+
+.zigzag-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+  
+.zigzag-flex img:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.zigzag-flex img:nth-child(even) {
+    align-self: flex-end;
+}
+
+.img-frame{
+    width: 80%;
+    aspect-ratio: 1/1;
+    border: 2px solid var(--Primary-Blue-Black, #0B1427);
+    box-shadow: 8px 8px 0px 0px #D9F74F;
+}
+
+span.bold-text {
+    font-weight: 700;
+    color: var(--blue);
+}
+
+/* About us CTA */
