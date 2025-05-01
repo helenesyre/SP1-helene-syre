@@ -22,16 +22,16 @@
 }
 
 .cta-purple:hover {
-    background: var( --purple-hover, #8160F8);
+    background: var(--purple-hover, #8160F8);
 }
 
 .cta-neon-green {
     background: var(--neon-green, #D9F74F);
-    color: var(--off-white);
+    color: var(--blue-black);
 }
 
 .cta-neon-green:hover {
-    background: var( --purple-hover, #E5FF6B);
+    background: var(--neon-green-hover, #E5FF6B);
 }
 
 /* Navigation hovers */

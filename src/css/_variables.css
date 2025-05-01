@@ -93,3 +93,18 @@ footer h4 {
 .color-purple {
   color: var(--purple);
 }
+
+.bg-neon-green {
+  background: var(--neon-green);
+  color: var(--blue-black);
+}
+
+.bg-purple {
+  background: var(--purple);
+  color: var(--off-white);
+}
+
+.bg-blue {
+  background: var(--blue);
+  color: var(--off-white);
+}

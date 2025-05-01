@@ -21,13 +21,13 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    margin-bottom: 96px;
 }
 
 .explore-cards {
     display: flex;
     flex-direction: column;
     gap: 48px;
-    margin: 0px 0 80px 0;
 }
 
 .card {
@@ -42,21 +42,6 @@
 
 .card p {
     font-size: 1.125rem;
-}
-
-.bg-neon-green {
-    background: var(--neon-green);
-    color: var(--blue-black);
-}
-
-.bg-purple {
-    background: var(--purple);
-    color: var(--off-white);
-}
-
-.bg-blue {
-    background: var(--blue);
-    color: var(--off-white);
 }
 
 .explore-icon {
@@ -80,10 +65,11 @@ span.bold-text {
 
 .zigzag-flex {
     display: flex;
-    flex-direction: row;
-    gap: 40px;
-    height: 50vh;
+    flex-direction: column;
+    gap: 60px;
+    height: auto;
 }
+
 .zigzag-flex .zigzag-img-container:nth-child(even) {
     align-self: flex-end;
 }
@@ -96,7 +82,7 @@ span.bold-text {
 
 .zigzag-img-container {
     flex: 1;
-    width: 100%;
+    width: 80%;
     position: relative;
 }
 
@@ -110,4 +96,90 @@ span.bold-text {
     translate: 5% 5%;
 }
 
-/* About us CTA */
+/* Split sections */
+.split-section,
+.split-section-reverse {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.split-section {
+    flex-direction: column;
+}
+
+.split-section-reverse {
+    flex-direction: column-reverse;
+}
+
+.split-image {
+    width: 100%;
+    max-width: 700px;
+    aspect-ratio: 1/1;
+    flex: 1;
+    object-fit: cover;
+    border: 2px solid var(--Primary-Blue-Black, #0B1427);
+    flex-shrink: 0;
+}
+
+.split-info {
+    flex: 1;
+}
+
+/* Events */
+.event-section{
+    margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
+}
+
+.event-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+    column-gap: 24px;
+    padding-bottom: 40px;
+}
+
+.event-card {
+    overflow: hidden;
+    height: 100%;
+}
+
+.event-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    border: 2px solid var(--Primary-Blue-Black, #0B1427);
+    border-bottom: none;
+  }
+
+.event-grid a {
+    text-decoration: none;
+  }
+
+.event-card-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px;
+    flex: 1;
+    border: 2px solid var(--Primary-Blue-Black, #0B1427);
+    background: var(--neon-green);
+}
+
+.event-card-info h3,
+.event-card-info p {
+    color: var(--blue-black);
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/line-clamp */
+.event-card-info p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+}
