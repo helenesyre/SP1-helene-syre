@@ -22,6 +22,35 @@ img {
   object-fit: cover;
 }
 
+/* Section border */
+hr {
+  margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
+  border: none;
+  border-bottom: 2px solid var(--blue-black);
+}
+
+/* Hero */
+.hero-title {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+/* Text */
+h2 {
+  font-size: 2rem;
+}
+
+.section-info {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
 /* Navigation */
 nav,
 #menu-checkbox {
@@ -179,6 +208,7 @@ input:focus {
 footer {
   display: flex;
   flex-direction: column;
+  margin-top: 56px;
 }
 
 footer {
