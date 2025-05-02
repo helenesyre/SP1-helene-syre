@@ -1,9 +1,9 @@
 /* Hero section */
-.hero-bg {
+.hero-padding {
     padding-bottom: 40px;
 }
 
-.hero-bg p{
+.explore-target-info p{
     font-size: 1.125rem;
 }
 
@@ -15,17 +15,23 @@
 .fizzik-desktop {
     display: none;
     max-width: 752px;
+    width: 100%;
 }
 
-.fizzik-mobile {
+.fizzik-desktop-2 {
+    display: none;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.fizzik-mobile,
+.fizzik-mobile-2 {
     display: inline-block;
     margin-top: 16px;
     margin-bottom: 32px;
     max-width: 500px;
-}
-
-.fizzik-desktop,
-.fizzik-mobile {
     width: 100%;
 }
 
@@ -34,8 +40,12 @@
     flex-direction: column;
 }
 
-.hero-title {
+.padding-top-l {
     padding-top: 40px;
+}
+
+.padding-top-m {
+    padding-top: 18px;
 }
 
 .explore-targets {
@@ -49,3 +59,87 @@
     max-width: 500px;
 }
 
+/* Evolution - exibition */
+.secondary-card {
+    display: flex;
+    padding: 24px 24px 36px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    border: 2px solid var(--Primary-Blue-Black, #0B1427);
+    box-shadow: 8px 8px 0px 0px #000;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 80px;
+}
+
+.evolution-icon {
+    width: auto;
+    height: 120px;
+}
+
+/* Interactive dig zone */
+.dig-zone-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.fossil-dig-zone {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 48px;
+}
+
+.fossil-img-1,
+.fossil-img-2 {
+    width: 100%;
+    aspect-ratio: 5/4;
+}
+
+.fossil-img-1 {
+    border: 2px solid var(--blue-black);
+}
+
+.fossil-img-2 {
+    border-left: 2px solid var(--blue-black);
+    border-right: 2px solid var(--blue-black);
+    border-bottom: 2px solid var(--blue-black);
+    border-top: 0;
+}
+
+
+/* Polaroid */
+.polaroid {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 80px 16px;
+    border: 2px solid var(--blue-black);
+    background: var(--off-white, #F6F5F2);
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.polaroid-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: 2px solid var(--blue-black);
+}
+
+.polaroid-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+    padding-top: 32px;
+    padding-bottom: 48px;
+}
