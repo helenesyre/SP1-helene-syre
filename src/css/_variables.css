@@ -108,3 +108,8 @@ footer h4 {
   background: var(--blue);
   color: var(--off-white);
 }
+
+.bg-dark-blue {
+  background: var(--dark-blue);
+  color: var(--off-white);
+}
