@@ -44,8 +44,13 @@ hr {
   font-size: 2.5rem;
 }
 
-.hero p {
+.hero p,
+.secondary-hero p {
   font-size: 1.5rem;
+}
+
+.secondary-hero {
+  width: 100%;
 }
 
 /* Text */
