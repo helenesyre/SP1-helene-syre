@@ -1,5 +1,5 @@
 /* Tablet */
-@media (min-width: 940px) {
+@media (min-width: 800px) {
     .container  {
         padding: 0 var(--ipad-padding-x, 80px);
     }
@@ -18,65 +18,6 @@
 
     .section-info {
         margin: 12px 0 32px 0;
-    }
-
-    /* Navigation */
-    header {
-        align-items: flex-end;
-        margin: 16px;
-    }
-
-    nav {
-        display: block;
-        position: static;
-        width: auto;
-        height: auto;
-    }
-
-    nav,
-    .logo {
-        margin-bottom: 18px;
-    }
-
-    .hamburger-icon {
-        display: none;
-    }
-
-    nav ul {
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        gap: 16px;
-    }
-
-    nav a {
-        padding: 8px;
-        text-decoration: none;
-        font-size: 1rem;
-        color: var(--blue-black), #0B1427;
-        border-bottom: none;
-    }
-
-    nav li {
-        width: auto;
-      }
-
-    .mobile-icon {
-        display: none;
-    }
-
-    .desktop-search {
-        display: block;
-      }
-
-    /* Mobile search */
-    .mobile-search {
-        display: none;
-    }
-
-    .serch-flex {
-        margin-top: auto;
     }
 
     /* Footer */
@@ -172,7 +113,8 @@
     }
 
     /* Events */
-    .event-section{
+    .event-section,
+    .hero-bg {
         margin: 0 calc(var(--ipad-padding-x, 80px) *-1);
     }
 
@@ -185,6 +127,31 @@
     .event-card img {
         height: 300px;
     }
+
+    /* What's on */
+    /* Hero section */
+    .hero-bg {
+        padding-bottom: 40px;
+        padding-bottom: 64px;
+    }
+
+    .hero-image-fw {
+        display: inline-block;
+        border-bottom: 2px solid var(--blue-black, #0B1427);
+        max-height: 300px;
+    }
+
+    .explore-targets {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 56px;
+    }
+
+    .explore-target-info {
+        width: 45%;
+    }
+
+    
     
 }
   
@@ -198,16 +165,75 @@
         width: 30%;
     }
 
-    .center-title {
-        padding: 80px 36px 64px 36px;
-    }
-
     .section-margin {
         margin: 120px 0 40px 0;
     }
 
     hr {
         margin: 0 calc(var(--padding-x, 120px) *-1);
+    }
+
+    .title-padding {
+        padding: 40px 0;
+      }
+
+    /* Navigation */
+    header {
+        align-items: flex-end;
+        margin: 16px;
+    }
+
+    nav {
+        display: block;
+        position: static;
+        width: auto;
+        height: auto;
+    }
+
+    nav,
+    .logo {
+        margin-bottom: 18px;
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 16px;
+    }
+
+    nav a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 1rem;
+        color: var(--blue-black), #0B1427;
+        border-bottom: none;
+    }
+
+    nav li {
+        width: auto;
+      }
+
+    .mobile-icon {
+        display: none;
+    }
+
+    .desktop-search {
+        display: block;
+      }
+
+    /* Mobile search */
+    .mobile-search {
+        display: none;
+    }
+
+    .serch-flex {
+        margin-top: auto;
     }
 
     /* Footer */
@@ -284,8 +310,13 @@
     }
 
     /* Events */
-    .event-section{
+    .event-section,
+    .hero-bg {
         margin: 0 calc(var(--padding-x, 120px) *-1);
+    }
+
+    .event-section h2 {
+        padding: 80px 36px 64px 36px;
     }
 
     .event-grid {
@@ -296,6 +327,48 @@
 
     .event-card img {
         height: 320px;
+    }
+
+    /* What's on */
+    /* Hero section */
+    .hero-image-fw {
+        max-height: 450px;
+        transition: ease 0.5s;
+    }
+
+    .explore-for {
+        flex-direction: row;
+        gap: 200px;
+        padding-top: 56px;
+    }
+
+    .explore-targets {
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .explore-target-info {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .fizzik-desktop {
+        display: inline-block;
+    }
+    
+    .fizzik-mobile {
+        display: none;
+    }
+
+    .fizzik-desktop-flex,
+    .target-audience {
+        width: 50%;
+    }
+
+    .target-audience {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
     }
 
 

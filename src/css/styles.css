@@ -26,6 +26,12 @@ img {
   object-fit: cover;
 }
 
+/* Full width backgrounds */
+.event-section,
+.hero-bg {
+  margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
+}
+
 /* Section border */
 hr {
   margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
@@ -62,7 +68,10 @@ h3 {
 
 .center-title {
   text-align: center;
-  padding: 56px 36px 40px 36px;
+}
+
+.title-padding {
+  padding: 24px 0;
 }
 
 /* Navigation */

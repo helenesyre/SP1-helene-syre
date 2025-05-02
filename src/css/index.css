@@ -129,8 +129,8 @@ span.bold-text {
 }
 
 /* Events */
-.event-section{
-    margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
+.event-section h2 {
+    padding: 56px 36px 40px 36px;
 }
 
 .event-grid {
