@@ -65,6 +65,33 @@ nav a.blue-black-hover:hover .mobile-icon {
     color: var(--off-white);
 }
 
+/* Navigation active */
+nav a.blue-hover.active {
+    color: var(--off-white);
+    background-color: var(--blue);
+}
+
+nav a.neon-green-hover.active {
+    color: var(--blue-black);
+    background-color: var(--neon-green);
+}
+
+nav a.purple-hover.active {
+    color: var(--off-white);
+    background-color: var(--purple);
+}
+
+nav a.blue-black-hover.active {
+    color: var(--off-white);
+    background-color: var(--blue-black);
+}
+
+nav a.blue-hover.active .mobile-icon,
+nav a.purple-hover.active .mobile-icon,
+nav a.blue-black-hover.active .mobile-icon {
+    color: var(--off-white);
+}
+
 /* Footer */
 footer a {
     color: var(--blue-black);
