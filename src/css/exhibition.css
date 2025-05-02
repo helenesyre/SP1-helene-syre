@@ -1,0 +1,51 @@
+/* Hero section */
+.hero-bg {
+    padding-bottom: 40px;
+}
+
+.hero-bg p{
+    font-size: 1.125rem;
+}
+
+.hero-image-fw {
+    display: none;
+}
+
+/* Fizzik */
+.fizzik-desktop {
+    display: none;
+    max-width: 752px;
+}
+
+.fizzik-mobile {
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    max-width: 500px;
+}
+
+.fizzik-desktop,
+.fizzik-mobile {
+    width: 100%;
+}
+
+.explore-for {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-title {
+    padding-top: 40px;
+}
+
+.explore-targets {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.explore-target-info {
+    width: 100%;
+    max-width: 500px;
+}
+
