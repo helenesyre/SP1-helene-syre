@@ -20,6 +20,11 @@
         margin: 12px 0 32px 0;
     }
 
+    /* Hero */
+    .secondary-hero {
+        width: 70%;
+    }
+
     /* Footer */
     footer {
         display: grid;
@@ -130,7 +135,7 @@
 
     /* What's on */
     /* Hero section */
-    .hero-bg {
+    .hero-padding {
         padding-bottom: 40px;
         padding-bottom: 64px;
     }
@@ -151,7 +156,36 @@
         width: 45%;
     }
 
-    
+    /* Evolution - exibition */
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 32px;
+    }
+
+    /* Interactive dig zone */
+    .fossil-dig-zone {
+        flex-direction: row;
+        padding-bottom: 64px;
+    }
+
+    .fossil-img-1,
+    .fossil-img-2 {
+        width: 50%;
+        height: 600px;
+    }
+
+    .fossil-img-2 {
+        border-left: 0;
+        border-right: 2px solid var(--blue-black);
+        border-bottom: 2px solid var(--blue-black);
+        border-top: 2px solid var(--blue-black);
+    }
+
+    /* Polaroid */
+    .polaroid-grid {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+    }
     
 }
   
@@ -175,7 +209,12 @@
 
     .title-padding {
         padding: 40px 0;
-      }
+    }
+
+    /* Hero */
+    .secondary-hero {
+        width: 50%;
+    }
 
     /* Navigation */
     header {
@@ -352,11 +391,19 @@
         max-width: 100%;
     }
 
-    .fizzik-desktop {
+    .fizzik-desktop,
+    .fizzik-desktop-2 {
         display: inline-block;
     }
+
+    .fizzik-desktop-2 {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
     
-    .fizzik-mobile {
+    .fizzik-mobile,
+    .fizzik-mobile-2 {
         display: none;
     }
 
@@ -371,6 +418,31 @@
         gap: 32px;
     }
 
+    /* Evolution - exibition */
+    .card-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* Interactive dig zone */
+    .dig-zone-flex {
+        flex-direction: row;
+        gap: 80px;
+    }
+
+    /* Polaroid */
+    .polaroid {
+        padding-bottom: 104px;
+    }
+    
+    .polaroid-img {
+        max-width: 100%;
+    }
+
+    .polaroid-grid {
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 40px;
+        padding-bottom: 120px;
+    }
 
 }
 
