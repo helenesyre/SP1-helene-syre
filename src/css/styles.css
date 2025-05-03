@@ -53,6 +53,15 @@ hr {
   width: 100%;
 }
 
+.secondary-hero p {
+  margin: 0%;
+  padding: 24px 0;
+}
+
+.hero-padding-alt {
+  padding: 64px 0 56px 0;
+}
+
 /* Text */
 h2 {
   font-size: 2rem;
@@ -317,4 +326,24 @@ footer ul,
   border-bottom: none;
   border-right: none;
   border-left: none;
+}
+
+
+/* Event */
+.coming-soon {
+  display: flex;
+  justify-content: center;
+}
+
+.polaroid-text {
+  font-size: 2rem;
+  margin-top: 24px;
+  margin-bottom: 0;
+  text-underline-offset: 6px;
+  color: var(--blue);
+}
+
+.polaroid-text:hover {
+  transform: scale(1.2);
+  transition: all ease 0.5;
 }
