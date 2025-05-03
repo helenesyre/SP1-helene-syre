@@ -216,6 +216,10 @@
         width: 50%;
     }
 
+    .hero-padding-alt {
+        padding: 100px 0 64px 0;
+      }
+
     /* Navigation */
     header {
         align-items: flex-end;
@@ -430,9 +434,6 @@
     }
 
     /* Polaroid */
-    .polaroid {
-        padding-bottom: 104px;
-    }
     
     .polaroid-img {
         max-width: 100%;
