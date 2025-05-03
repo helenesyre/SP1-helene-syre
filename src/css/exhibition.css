@@ -3,7 +3,7 @@
     padding-bottom: 40px;
 }
 
-.explore-target-info p{
+.explore-target-info p {
     font-size: 1.125rem;
 }
 
@@ -115,15 +115,24 @@
 
 
 /* Polaroid */
-.polaroid {
+.polaroid,
+.polaroid-with-text {
     display: flex;
     flex-direction: column;
-    padding: 16px 16px 80px 16px;
+    align-items: center;
     border: 2px solid var(--blue-black);
     background: var(--off-white, #F6F5F2);
     max-width: 100%;
     width: 100%;
     box-sizing: border-box;
+}
+
+.polaroid{
+    padding: 16px 16px 80px 16px;
+}
+
+.polaroid-with-text {
+    padding: 16px 16px 32px 16px;
 }
 
 .polaroid-img {
