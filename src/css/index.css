@@ -10,6 +10,7 @@
 
 .hero-image {
     aspect-ratio: 1/1;
+    object-fit: cover;
     margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
     width: 100vw;
     display: block;
