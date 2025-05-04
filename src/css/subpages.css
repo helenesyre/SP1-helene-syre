@@ -1,0 +1,42 @@
+/* About us */
+
+/* Contact */
+.contact-alt {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.contact-info,
+.contact-info-secondary {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.send-message,
+.send-mail-mobile,
+.send-mail-desktop {
+    max-width: 495px;
+}
+
+.send-mail-mobile{
+    display: inline-block;
+}
+
+.send-mail-desktop {
+    display: none;
+}
+
+/*.send-mail{
+    height: auto;
+    max-width: 420px;
+}*/
+
+/* FAQ */
+
+
+/* Map */
+.i-frame {
+    height: 600px;
+}
