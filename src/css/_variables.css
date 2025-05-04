@@ -72,6 +72,14 @@ nav a {
   font-style: normal;
 }
 
+/* FAQ */
+.faq-number p {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
 /* Navigation */
 input.search::placeholder {
   font-family: "new-science", Verdana, Tahoma, sans-serif;
