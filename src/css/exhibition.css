@@ -9,6 +9,7 @@
 
 .hero-image-fw {
     display: none;
+    object-fit: cover;
 }
 
 /* Fizzik */
