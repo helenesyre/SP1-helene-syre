@@ -34,7 +34,34 @@
 }*/
 
 /* FAQ */
+.faq-number {
+    display: flex;
+    width: 54px;
+    height: 54px;
+    aspect-ratio: 1/1;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--blue-black);
+}
 
+.faq-number p {
+    font-size: 2rem;
+}
+
+.faq-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.faq-columns,
+.faq-left,
+.faq-right {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
 
 /* Map */
 .i-frame {
