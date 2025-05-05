@@ -73,7 +73,7 @@ nav a {
 }
 
 /* Form */
-form label {
+form.contact-form label {
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
