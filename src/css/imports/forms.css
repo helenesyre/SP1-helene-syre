@@ -6,7 +6,7 @@
     margin-bottom: 48px;
 }
 
-form {
+form.contact-form {
     display: flex;
     padding: 24px 32px 32px 32px;
     flex-direction: column;
@@ -18,7 +18,7 @@ form {
     width: 100%;
 }
 
-form label {
+form.contact-form label {
     font-size: 1.125rem;
     color: var(--blue, #2C65F4);
 }
