@@ -1,5 +1,4 @@
 /* About us */
-
 /* Contact */
 .contact-alt {
     display: flex;
@@ -27,11 +26,6 @@
 .send-mail-desktop {
     display: none;
 }
-
-/*.send-mail{
-    height: auto;
-    max-width: 420px;
-}*/
 
 /* FAQ */
 .faq-number {
@@ -63,7 +57,100 @@
     gap: 56px;
 }
 
+.opening-hours {
+    margin: 20px 0;
+}
+
+.opening-hours p {
+    margin: 0;
+}
+
 /* Map */
 .i-frame {
     height: 600px;
 }
+
+/* Join the team */
+.text-scroll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    overflow: hidden;
+}
+
+.text-scroll p {
+    font-size: 1.625rem;
+}
+
+/* Involvement information */
+.involvement-section,
+.involvement-section-reverse {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+}
+
+.involvement-section  {
+    flex-direction: column;
+}
+
+.involvement-section-reverse {
+    flex-direction: column-reverse;
+}
+
+.involvement-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 36px 56px;
+    flex: 1;
+    height: 100%;
+}
+
+.involvement-type p {
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.involvement-img {
+    flex: 1;
+    object-fit: cover;
+    flex-shrink: 0;
+    aspect-ratio: 3/2;
+}
+
+.involvement-section img,
+.involvement-section-reverse img {
+    border-bottom: 2px solid var(--blue-black);
+}
+
+
+
+
+/* Split section MEDIA 1200
+.split-section,
+.split-section-reverse {
+    flex-direction: row;
+    gap: 200px;
+    padding: 64px 0;
+    justify-content: center;
+}
+
+.split-section > img,
+.split-section-reverse > img {
+    width: 50%;
+    max-width: 700px;
+}
+
+.split-section > div,
+.split-section-reverse > div {
+    width: 50%;
+}
+
+.split-image {
+    aspect-ratio: 1/1;
+}
+
+*/
