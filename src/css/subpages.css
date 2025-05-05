@@ -131,31 +131,68 @@
     border-bottom: 2px solid var(--blue-black);
 }
 
+/* Visit */
+.visit-info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 56px;
+    padding-bottom: 56px;
+}
 
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
 
+.visit-titles {
+    font-size: 1.75rem;
+}
 
-/* Split section MEDIA 1200
-.split-section,
-.split-section-reverse {
+/* Page split */
+.split-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 0 0 62%;
+}
+
+.side-content {
+    flex: 0 0 38%;
+    margin-bottom: 48px;
+}
+
+/* Opening hours */
+.opening-title {
+    font-size: 2rem;
+}
+
+.opening-time {
+    max-width: 543px;
+    margin: 72px 0;
+}
+
+.opening-info {
+    display: flex;
     flex-direction: row;
-    gap: 200px;
-    padding: 64px 0;
-    justify-content: center;
+    gap: 32px;
+    margin-top: 8px;
 }
 
-.split-section > img,
-.split-section-reverse > img {
-    width: 50%;
-    max-width: 700px;
+.opening-days,
+.opening-hours {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 1.25rem;
 }
 
-.split-section > div,
-.split-section-reverse > div {
-    width: 50%;
+.opening-hours li strong {
+    font-weight: 700;
 }
-
-.split-image {
-    aspect-ratio: 1/1;
-}
-
-*/

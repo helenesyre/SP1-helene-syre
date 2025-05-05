@@ -150,7 +150,7 @@
         padding-bottom: 64px;
     }
 
-    .hero-image-fw {
+    .fullwidth-hero {
         display: inline-block;
         border-bottom: 2px solid var(--blue-black, #0B1427);
         max-height: 300px;
@@ -275,7 +275,8 @@
         font-size: 3rem;
     }
 
-    h3 {
+    h3,
+    .visit-titles {
         font-size: 2rem;
     }
 
@@ -383,12 +384,16 @@
     .card-flex {
         align-items: flex-start;
         flex-direction: row;
-        margin-bottom: 160px;
+    }
+
+    .gap-m {
+        gap: 40px;
     }
 
     /* Image layout */
     .img-zigzag-layout {
         gap: 80px;
+        margin-top: 160px;
     }
 
     .zigzag-flex {
@@ -449,6 +454,7 @@
 
     /* What's on */
     /* Hero section */
+    .fullwidth-hero,
     .hero-image-fw {
         max-height: 450px;
         transition: ease 0.5s;
@@ -576,6 +582,32 @@
         margin-bottom: 100px;
     }
 
+    /* Visit */
+    /* Opening hours */
+    .opening-title {
+        font-size: 3rem;
+    }
+
+    .opening-time {
+        margin: 96px 0;
+    }
+
+    .opening-days,
+    .opening-hours {
+        font-size: 1.375rem;
+        transition: ease all 0.5s;
+    }
+
+    .side-content {
+        margin-bottom: 80px;
+    }
+
+    /* Page split */
+    .split-layout {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
 
 @media (min-width: 1600px) {
@@ -677,6 +709,12 @@
 
     .contact-info-secondary {
         gap: 90px;
-        }
+    }
+
+    /* Visit */
+    .opening-days,
+    .opening-hours {
+        font-size: 1.5rem;
+    }
 
 }
