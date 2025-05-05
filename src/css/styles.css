@@ -6,6 +6,7 @@
 /* Feel free to add as many of these imports as you need */
 @import "imports/links.css";
 @import "imports/forms.css";
+@import "imports/fizzik.css";
 
 body {
   color: var(--color-primary);
@@ -46,13 +47,18 @@ hr {
   border-bottom: 2px solid var(--blue-black);
 }
 
+.off-white-border {
+  border-bottom: 2px solid var(--off-white);
+}
+
 /* Hero */
 .hero-title {
   font-size: 2.5rem;
 }
 
 .hero p,
-.secondary-hero p {
+.secondary-hero p,
+.hero-visit-exhibit p {
   font-size: 1.5rem;
   width: 100%;
 }
@@ -61,17 +67,39 @@ hr {
   width: 100%;
 }
 
-.secondary-hero {
+.secondary-hero,
+.hero-visit-exhibit {
   width: 100%;
 }
 
-.secondary-hero p {
+.secondary-hero p,
+.hero-visit-exhibit p {
   margin: 0%;
   padding: 24px 0;
 }
 
 .hero-padding-alt {
   padding: 64px 0 56px 0;
+}
+
+.fullwidth-hero {
+  display: none;
+  object-fit: cover;
+}
+
+.hero-image-fw {
+  object-fit: cover;
+  max-height: 300px;
+  border-bottom: 2px solid var(--blue-black, #0B1427);
+  display: block;
+}
+
+.padding-top-l {
+  padding-top: 40px;
+}
+
+.padding-top-m {
+  padding-top: 18px;
 }
 
 /* Text */
@@ -86,6 +114,10 @@ h2 {
 
 .bodytext {
   font-size: 1.125rem;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 h3 {

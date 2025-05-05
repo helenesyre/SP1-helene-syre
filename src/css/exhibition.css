@@ -3,46 +3,9 @@
     padding-bottom: 40px;
 }
 
-.hero-image-fw {
-    display: none;
-    object-fit: cover;
-}
-
-/* Fizzik */
-.fizzik-desktop {
-    display: none;
-    max-width: 752px;
-    width: 100%;
-}
-
-.fizzik-desktop-2 {
-    display: none;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    object-fit: cover;
-}
-
-.fizzik-mobile,
-.fizzik-mobile-2 {
-    display: inline-block;
-    margin-top: 16px;
-    margin-bottom: 32px;
-    max-width: 500px;
-    width: 100%;
-}
-
 .explore-for {
     display: flex;
     flex-direction: column;
-}
-
-.padding-top-l {
-    padding-top: 40px;
-}
-
-.padding-top-m {
-    padding-top: 18px;
 }
 
 .explore-targets {
