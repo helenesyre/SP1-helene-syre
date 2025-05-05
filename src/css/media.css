@@ -233,6 +233,16 @@
     .involvement-type {
         padding: 66px 96px;
     }
+
+    /* Contact */
+    .center-form {
+        margin-bottom: 64px;
+    }
+
+    .content-row {
+        flex-direction: row;
+        gap: 32px;
+    }
 }
   
 /* Desktop */
@@ -256,10 +266,6 @@
     hr {
         margin: 0 calc(var(--padding-x, 120px) *-1);
     }
-
-    .center-section {
-        padding-bottom: 100px;
-      }
 
     .title-padding {
         padding: 40px 0;
@@ -503,7 +509,6 @@
     }
 
     /* Polaroid */
-    
     .polaroid-img {
         max-width: 100%;
     }
@@ -516,14 +521,18 @@
 
     /* About us */
     /* Contact */
-
     .contact-info-secondary {
     gap: 124px;
+    }
+
+    .contact-alt {
+        margin-bottom: 100px;
     }
 
     /* FAQ */
     .faq-columns {
         gap: 80px;
+        padding-bottom: 100px;
     }
 
     .faq-left,
@@ -562,6 +571,10 @@
         border-right: 2px solid var(--blue-black);
     }
 
+    /* Contact */
+    .center-form {
+        margin-bottom: 100px;
+    }
 
 }
 

@@ -1,0 +1,57 @@
+/* Contact */
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+form {
+    display: flex;
+    padding: 24px 32px 32px 32px;
+    flex-direction: column;
+    gap: 32px;
+    border: 2px solid var(--blue-black, #0B1427);
+    background: var(--off-white, #F6F5F2);
+    align-items: center;
+    max-width: 710px;
+    width: 100%;
+}
+
+form label {
+    font-size: 1.125rem;
+    color: var(--blue, #2C65F4);
+}
+
+#fname, #lname, #email, #phone-number, #message {
+    display: flex;
+    padding: 18px 16px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border: 2px solid var(--blue-black, #0B1427);
+    background: var(--off-white, #F6F5F2);
+    box-shadow: 8px 8px 0px 0px var(--blue-black, #0B1427);
+}
+
+.content-row {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+#message {
+    height: 124px;
+}
+
+#submit {
+    margin-top: 24px;
+}
