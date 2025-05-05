@@ -1,0 +1,23 @@
+/* Fizzik */
+.fizzik-desktop {
+    display: none;
+    max-width: 752px;
+    width: 100%;
+}
+
+.fizzik-desktop-2 {
+    display: none;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.fizzik-mobile,
+.fizzik-mobile-2 {
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    max-width: 500px;
+    width: 100%;
+}
