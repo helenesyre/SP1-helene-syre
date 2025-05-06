@@ -197,3 +197,50 @@ span.bold-text {
     line-clamp: 3;
     overflow: hidden;
 }
+
+/* Event article */
+.event-article-img {
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    padding-bottom: 40px;
+}
+
+.bodytext-article {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 56px 0;
+}
+
+.side-content-flex,
+.special-event-flex,
+.flex-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.side-content-flex {
+    gap: 40px;
+}
+
+.special-event-flex,
+.flex-info {
+    gap: 24px;
+}
+
+.special-event-flex h3 {
+    font-size: 1.375rem;
+}
+
+.special-event-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.event-icon {
+    width: auto;
+    height: 56px;
+    color: var(--neon-green);
+}

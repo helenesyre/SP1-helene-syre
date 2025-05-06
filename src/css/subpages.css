@@ -136,8 +136,8 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin-top: 56px;
     padding-bottom: 56px;
+    width: 100%;
 }
 
 .info-box {
@@ -152,17 +152,36 @@
 
 /* Page split */
 .split-layout {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-auto-rows: auto;
 }
 
 .main-content {
-    flex: 0 0 62%;
+    grid-column: 1 / -1;
 }
 
 .side-content {
-    flex: 0 0 38%;
-    margin-bottom: 48px;
+    grid-column: 1 / -1;
+}
+
+.side-content-right {
+    margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
+    padding: 0 var(--mobile-padding-x, 40px);
+}
+.side-content-left {
+    margin: 0 calc(var(--mobile-padding-x, 40px) *-1);
+    padding: 0 var(--mobile-padding-x, 40px);
+}
+
+.side-content-padding {
+    padding: 0 calc(var(--mobile-padding-x, 40px));
+    padding-bottom: 56px;
+    padding-top: 56px;
+}
+
+.side-content-padding-r {
+    padding-right: 50px;
 }
 
 /* Opening hours */
@@ -172,7 +191,7 @@
 
 .opening-time {
     max-width: 543px;
-    margin: 72px 0;
+    margin-bottom: 72px;
 }
 
 .opening-info {

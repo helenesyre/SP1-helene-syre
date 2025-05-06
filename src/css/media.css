@@ -143,6 +143,21 @@
         height: 300px;
     }
 
+    .side-content-right {
+        margin: 0 calc(var(--ipad-padding-x, 80px) *-1);
+        padding: 0 var(--ipad-padding-x, 80px);
+    }
+    .side-content-left {
+        margin: 0 calc(var(--ipad-padding-x, 80px) *-1);
+        padding: 0 var(--ipad-padding-x, 80px);
+    }
+    
+    .side-content-padding {
+        padding: 0 calc(var(--ipad-padding-x, 80px));
+        padding-bottom: 56px;
+        padding-top: 56px;
+    }
+
     /* What's on */
     /* Hero section */
     .hero-padding {
@@ -242,6 +257,11 @@
     .content-row {
         flex-direction: row;
         gap: 32px;
+    }
+
+    /* Visit */
+    .visit-info-section {
+        width: 80%;
     }
 }
   
@@ -452,6 +472,36 @@
         height: 320px;
     }
 
+    .main-content {
+        grid-column: span 7 / span 7;
+    }
+
+    .side-content {
+        grid-column: span 5 / span 5;
+    }
+
+    .side-content-right {
+        margin: 0 calc(var(--padding-x, 120px) *-1) 0 0;
+        padding: 0 calc(var(--padding-x, 120px)) 0 50px;
+    }
+    .side-content-left {
+        margin: 0 0 0 calc(var(--padding-x, 120px) *-1);
+        padding: 0  50px 0 calc(var(--padding-x, 120px));
+    }
+
+    .side-content-padding {
+        padding-bottom: 96px;
+        padding-top: 120px;
+    }
+
+    .event-article-img {
+        padding-bottom: 0;
+    }
+    
+    .special-event-flex h3 {
+        font-size: 1.5rem;
+    }
+
     /* What's on */
     /* Hero section */
     .fullwidth-hero,
@@ -512,6 +562,7 @@
     .dig-zone-flex {
         flex-direction: row;
         gap: 80px;
+        margin: 80px 0;
     }
 
     /* Polaroid */
@@ -589,17 +640,13 @@
     }
 
     .opening-time {
-        margin: 96px 0;
+        margin-bottom: 96px;
     }
 
     .opening-days,
     .opening-hours {
         font-size: 1.375rem;
         transition: ease all 0.5s;
-    }
-
-    .side-content {
-        margin-bottom: 80px;
     }
 
     /* Page split */
