@@ -21,3 +21,8 @@
     max-width: 500px;
     width: 100%;
 }
+
+.side-content .fizzik-mobile-2,
+.side-content .fizzik-desktop-2 {
+    margin-bottom: 48px;
+}
