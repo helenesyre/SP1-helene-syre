@@ -47,10 +47,6 @@ hr {
   border-bottom: 2px solid var(--blue-black);
 }
 
-.off-white-border {
-  border-bottom: 2px solid var(--off-white);
-}
-
 /* Hero */
 .hero-title {
   font-size: 2.5rem;
