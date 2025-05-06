@@ -76,16 +76,44 @@
 }
 
 /* Join the team */
-.text-scroll {
+/* Scroll banner */
+/* Code from https://www.youtube.com/watch?v=bd9MLIb3DCg&t=55s */
+.scroll-banner {
+    border-top: 2px solid var(--blue-black);
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 40px;
-    overflow: hidden;
+    user-select: none;
 }
 
-.text-scroll p {
+.scroll-banner ul {
+    list-style: none;
+    flex-shrink: 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    animation: scroll 16s linear infinite;
+}
+
+@keyframes scroll {
+    to {
+      transform: translateX(-100%);
+    }
+}
+
+.scroll-item {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.scroll-text {
     font-size: 1.625rem;
+}
+
+.icon-right {
+    height: 30px;
+    width: auto;
 }
 
 /* Involvement information */
