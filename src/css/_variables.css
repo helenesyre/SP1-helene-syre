@@ -37,6 +37,13 @@
   --padding-x: 120px;
   --ipad-padding-x: 80px;
   --mobile-padding-x: 40px;
+
+  /* icons */
+  --icon-blue: var(--blue, #2C65F4);
+  --icon-neon-green: var(--neon-green, #D9F74F);
+  --icon-purple: var(--purple, #6444DB);
+  --icon-blue-black: var(--blue-black, #0B1427);
+  --icon-off-white: var(--off-white, #F6F5F2);
 }
 
 /* Fonts */

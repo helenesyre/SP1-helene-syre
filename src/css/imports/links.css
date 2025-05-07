@@ -117,7 +117,7 @@ footer a {
 
 footer a:hover {
     color: var(--blue);
-    font-weight: 700;
+    text-shadow: 0 0 1px currentColor;
     text-decoration-thickness: 3px;
     transition: color text-decoration 0.5s;
 }

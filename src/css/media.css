@@ -263,6 +263,11 @@
     .visit-info-section {
         width: 80%;
     }
+
+    .opening-days,
+    .opening-hours {
+        font-size: 1.25rem;
+    }
 }
   
 /* Desktop */
