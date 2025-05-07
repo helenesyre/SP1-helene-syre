@@ -301,7 +301,8 @@
     }
 
     h3,
-    .visit-titles {
+    .visit-titles,
+    .explore-target-info h2 {
         font-size: 2rem;
     }
 
