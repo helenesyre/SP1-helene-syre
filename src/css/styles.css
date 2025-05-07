@@ -250,6 +250,7 @@ footer li {
   display: inline-block;
 }
 
+/* Code from: https://webaim.org/techniques/css/invisiblecontent/ */
 .sr-only {
   position: absolute;
   width: 1px;
