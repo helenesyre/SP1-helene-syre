@@ -251,7 +251,7 @@ footer li {
 }
 
 /* Code from: https://webaim.org/techniques/css/invisiblecontent/ */
-.sr-only {
+span .sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
