@@ -120,6 +120,10 @@
         gap: 80px;
     }
 
+    .img-zigzag-layout h2 {
+        width: 50%;
+    }
+
     
     /* Split section */
     .split-image {
@@ -424,6 +428,10 @@
     .img-zigzag-layout {
         gap: 80px;
         margin-top: 160px;
+    }
+
+    .img-zigzag-layout h2 {
+        width: 35%;
     }
 
     .zigzag-flex {
