@@ -97,6 +97,7 @@
     border-top: 2px solid var(--blue-black);
     display: flex;
     user-select: none;
+    overflow: hidden;
 }
 
 .scroll-banner ul {
