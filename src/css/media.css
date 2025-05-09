@@ -604,6 +604,15 @@
         margin-bottom: 100px;
     }
 
+    .contact-info p{
+        width: 75%;
+    }
+
+    .contact-info-secondary p {
+        width: 85%;
+    }
+
+
     /* FAQ */
     .faq-columns {
         gap: 80px;
