@@ -120,7 +120,8 @@ h2 {
 
 h3,
 .explore-target-info h2,
-.secondary-card h2 {
+.secondary-card h2,
+.event-card-info h2 {
   font-size: 1.75rem;
 }
 
