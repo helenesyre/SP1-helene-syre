@@ -22,7 +22,8 @@
     }
 
     /* Hero */
-    .secondary-hero {
+    .secondary-hero,
+    .evolution-index {
         width: 70%;
     }
 
@@ -302,7 +303,8 @@
 
     h3,
     .visit-titles,
-    .explore-target-info h2 {
+    .explore-target-info h2,
+    .secondary-card h2 {
         font-size: 2rem;
     }
 
@@ -311,7 +313,8 @@
     }
 
     /* Hero */
-    .secondary-hero {
+    .secondary-hero,
+    .evolution-index {
         width: 50%;
     }
 

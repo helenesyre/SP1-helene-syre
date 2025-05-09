@@ -54,7 +54,8 @@ hr {
 
 .hero p,
 .secondary-hero p,
-.hero-visit-exhibit p {
+.hero-visit-exhibit p,
+.evolution-index {
   font-size: 1.5rem;
   width: 100%;
 }
@@ -69,7 +70,8 @@ hr {
 }
 
 .secondary-hero p,
-.hero-visit-exhibit p {
+.hero-visit-exhibit p,
+.evolution-index {
   margin: 0%;
   padding: 24px 0;
 }
@@ -117,7 +119,8 @@ h2 {
 }
 
 h3,
-.explore-target-info h2 {
+.explore-target-info h2,
+.secondary-card h2 {
   font-size: 1.75rem;
 }
 
