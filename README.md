@@ -1,6 +1,6 @@
 # (FM1AIS175) SP1 - Semester Project 1
 
-Short project description (1–2 sentences explaining what your project does).
+The Community Science Museum is a fun and interactive museum opening in your local area. It is designed for children aged 7–15 and their families, with exciting exhibits that make learning about science enjoyable and engaging.
 
 ---
 
