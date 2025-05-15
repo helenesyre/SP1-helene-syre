@@ -29,7 +29,7 @@
 
     .hero p {
         width: 80%;
-      }
+    }
 
     /* Footer */
     footer {
@@ -367,7 +367,7 @@
 
     nav li {
         width: auto;
-      }
+    }
 
     .mobile-icon {
         display: none;
@@ -375,7 +375,7 @@
 
     .desktop-search {
         display: block;
-      }
+    }
 
     /* Mobile search */
     .mobile-search {
