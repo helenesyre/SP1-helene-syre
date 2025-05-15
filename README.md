@@ -1,4 +1,4 @@
-# Project Title
+# (FM1AIS175) SP1 - Semester Project 1
 
 Short project description (1–2 sentences explaining what your project does).
 
