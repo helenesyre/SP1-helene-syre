@@ -42,7 +42,7 @@
     padding: 8px;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--blue-black);
+    border: 2px solid var(--blue-black, #0B1427);
 }
 
 .faq-number {
@@ -96,10 +96,16 @@
 }
 
 /* Join the team */
+
 /* Scroll banner */
-/* Code from https://www.youtube.com/watch?v=bd9MLIb3DCg&t=55s */
+/* Code by: 
+Build an Infinite Scroll Animation Effect Using Only CSS
+@publisher: Optimistic Web
+@date: 2024-03-19
+@link: https://www.youtube.com/watch?v=bd9MLIb3DCg&t=55s 
+*/ 
 .scroll-banner {
-    border-top: 2px solid var(--blue-black);
+    border-top: 2px solid var(--blue-black, #0B1427);
     display: flex;
     user-select: none;
     overflow: hidden;
@@ -177,7 +183,7 @@
 
 .involvement-section img,
 .involvement-section-reverse img {
-    border-bottom: 2px solid var(--blue-black);
+    border-bottom: 2px solid var(--blue-black, #0B1427);
 }
 
 /* Visit */

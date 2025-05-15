@@ -18,15 +18,10 @@
     transition: ease 0.3s;
 }
 
-/* Links */
-
-
-/* Search overlay */
-
 /* Button colors */
 .cta-blue {
     background: var(--blue, #2C65F4);
-    color: var(--off-white);
+    color: var(--off-white, #F6F5F2);
 }
 
 .cta-blue:hover {
@@ -35,7 +30,7 @@
 
 .cta-purple {
     background: var(--purple, #6444DB);
-    color: var(--off-white);
+    color: var(--off-white, #F6F5F2);
 }
 
 .cta-purple:hover {
@@ -44,7 +39,7 @@
 
 .cta-neon-green {
     background: var(--neon-green, #D9F74F);
-    color: var(--blue-black);
+    color: var(--blue-black, #F6F5F2);
 }
 
 .cta-neon-green:hover {
@@ -53,71 +48,71 @@
 
 /* Navigation hovers */
 nav a.blue-hover:hover {
-    color: var(--off-white);
-    background-color: var(--blue);
+    color: var(--off-white, #F6F5F2);
+    background-color: var(--blue, #2C65F4);
     transition: ease color 0.3s;
 }
 
 nav a.neon-green-hover:hover {
-    color: var(--blue-black);
-    background-color: var(--neon-green);
+    color: var(--blue-black, #0B1427);
+    background-color: var(--neon-green, #D9F74F);
     transition: ease color 0.3s;
 }
 
 nav a.purple-hover:hover {
-    color: var(--off-white);
-    background-color: var(--purple);
+    color: var(--off-white, #F6F5F2);
+    background-color: var(--purple, #6444DB);
     transition: ease color 0.3s;
 }
 
 nav a.blue-black-hover:hover {
-    color: var(--off-white);
-    background-color: var(--blue-black);
+    color: var(--off-white, #F6F5F2);
+    background-color: var(--blue-black, #0B1427);
     transition: ease color 0.3s;
 }
 
 nav a.blue-hover:hover .mobile-icon,
 nav a.purple-hover:hover .mobile-icon,
 nav a.blue-black-hover:hover .mobile-icon {
-    color: var(--off-white);
+    color: var(--off-white, #F6F5F2);
 }
 
 /* Navigation active */
 nav a.blue-hover.active {
-    color: var(--off-white);
-    background-color: var(--blue);
+    color: var(--off-white, #F6F5F2);
+    background-color: var(--blue, #2C65F4);
 }
 
 nav a.neon-green-hover.active {
     color: var(--blue-black);
-    background-color: var(--neon-green);
+    background-color: var(--neon-green, #D9F74F);
 }
 
 nav a.purple-hover.active {
-    color: var(--off-white);
-    background-color: var(--purple);
+    color: var(--off-white, #F6F5F2);
+    background-color: var(--purple, #6444DB);
 }
 
 nav a.blue-black-hover.active {
-    color: var(--off-white);
-    background-color: var(--blue-black);
+    color: var(--off-white, #F6F5F2);
+    background-color: var(--blue-black, #0B1427);
 }
 
 nav a.blue-hover.active .mobile-icon,
 nav a.purple-hover.active .mobile-icon,
 nav a.blue-black-hover.active .mobile-icon {
-    color: var(--off-white);
+    color: var(--off-white, #F6F5F2);
 }
 
 /* Footer */
 footer a {
-    color: var(--blue-black);
+    color: var(--blue-black, #0B1427);
     text-decoration-thickness: 2px;
     text-underline-offset: 25%;
 }
 
 footer a:hover {
-    color: var(--blue);
+    color: var(--blue, #2C65F4);
     text-shadow: 0 0 1px currentColor;
     text-decoration-thickness: 3px;
     transition: color text-decoration 0.5s;

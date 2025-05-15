@@ -27,7 +27,7 @@
     align-items: flex-start;
     gap: 32px;
     border: 2px solid var(--Primary-Blue-Black, #0B1427);
-    box-shadow: 8px 8px 0px 0px #000;
+    box-shadow: 8px 8px 0px 0px #0B1427;
 }
 
 .card-grid {
@@ -65,13 +65,13 @@
 }
 
 .fossil-img-1 {
-    border: 2px solid var(--blue-black);
+    border: 2px solid var(--blue-black, #0B1427);
 }
 
 .fossil-img-2 {
-    border-left: 2px solid var(--blue-black);
-    border-right: 2px solid var(--blue-black);
-    border-bottom: 2px solid var(--blue-black);
+    border-left: 2px solid var(--blue-black, #0B1427);
+    border-right: 2px solid var(--blue-black, #0B1427);
+    border-bottom: 2px solid var(--blue-black, #0B1427);
     border-top: 0;
 }
 
@@ -82,7 +82,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid var(--blue-black);
+    border: 2px solid var(--blue-black, #0B1427);
     background: var(--off-white, #F6F5F2);
     max-width: 100%;
     width: 100%;
@@ -104,7 +104,7 @@
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
-    border: 2px solid var(--blue-black);
+    border: 2px solid var(--blue-black, #0B1427);
     object-fit: cover;
 }
 
@@ -117,5 +117,5 @@
 }
 
 .polaroid-border {
-    border-top: 2px solid var(--blue-black);
+    border-top: 2px solid var(--blue-black, #0B1427);
 }

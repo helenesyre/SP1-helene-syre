@@ -254,7 +254,13 @@ footer li {
   display: inline-block;
 }
 
-/* Code from: https://webaim.org/techniques/css/invisiblecontent/ */
+/* Code by: 
+CSS in Action
+@publisher: WebAIM
+@date: 2020-09-25
+@link: https://webaim.org/techniques/css/invisiblecontent/
+*/
+
 span .sr-only {
   position: absolute;
   width: 1px;
@@ -297,7 +303,7 @@ input.search {
 }
 
 input.search::placeholder {
-  color: var(--blue-black);
+  color: var(--blue-black, #0B1427);
 }
 
 .search-icon {
@@ -323,7 +329,7 @@ input:focus {
 footer {
   display: flex;
   flex-direction: column;
-  border: black;
+  border: 2px solid var(--blue-black, #0B1427);
   border-style: solid;
   border-left: 0;
   border-right: 0;
@@ -358,7 +364,7 @@ footer {
 
 .copyright-area p,
 .copyright-area a {
-  color: var(--blue);
+  color: var(--blue, #2C65F4);
   font-size: 1rem;
 }
 
@@ -400,7 +406,7 @@ footer ul,
 .info-area,
 .list-area,
 .copyright-area {
-  border-top: 2px solid var(--blue-black);
+  border-top: 2px solid var(--blue-black, #0B1427);
   border-bottom: none;
   border-right: none;
   border-left: none;
@@ -423,7 +429,7 @@ footer ul,
   margin-top: 24px;
   margin-bottom: 0;
   text-underline-offset: 6px;
-  color: var(--blue);
+  color: var(--blue, #2C65F4);
 }
 
 .polaroid-text:hover {

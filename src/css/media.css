@@ -77,7 +77,7 @@
     }
 
     .info-area {
-        border-right: 2px solid var(--blue-black);
+        border-right: 2px solid var(--blue-black, #0B1427);
     }
 
     /* Homepage */
@@ -206,9 +206,9 @@
 
     .fossil-img-2 {
         border-left: 0;
-        border-right: 2px solid var(--blue-black);
-        border-bottom: 2px solid var(--blue-black);
-        border-top: 2px solid var(--blue-black);
+        border-right: 2px solid var(--blue-black, #0B1427);
+        border-bottom: 2px solid var(--blue-black, #0B1427);
+        border-top: 2px solid var(--blue-black, #0B1427);
     }
 
     /* Polaroid */
@@ -387,7 +387,6 @@
     }
 
     /* Footer */
-
     /* Footer borders */    
     .logo-area {
         padding-bottom: 40px;
@@ -661,7 +660,7 @@
     
     .involvement-type,
     .involvement-section img {
-        border-right: 2px solid var(--blue-black);
+        border-right: 2px solid var(--blue-black, #0B1427);
     }
 
     /* Contact */
@@ -710,7 +709,7 @@
 
     .list-area {
         grid-column: 3;
-        flex-direction: row; /* switch lists to row layout on desktop */
+        flex-direction: row;
         justify-content: space-between;
     }
 
@@ -761,7 +760,7 @@
     }
 
     .logo-area {
-        border-right: 2px solid var(--blue-black);
+        border-right: 2px solid var(--blue-black, #0B1427);
     }
 
     /* Homepage */

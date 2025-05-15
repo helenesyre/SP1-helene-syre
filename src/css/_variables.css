@@ -1,6 +1,3 @@
-/* Use this file to store your useful variables */
-/* This could be colors, fonts, or padding sizes! */
-
 :root {
   --color-primary: #0B1427;
   --color-secondary: #F6F5F2;
@@ -85,7 +82,12 @@ form.contact-form label {
   font-style: normal;
 }
 
-/* https://stackoverflow.com/questions/14524328/changing-font-family-for-placeholder */
+/* Code by: 
+Changing font-family for placeholder (answer)
+@publisher: Arif
+@date: 2018-12-14
+@link: https://stackoverflow.com/questions/14524328/changing-font-family-for-placeholder
+*/
 
 .input-style::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   font-family: "new-science", Verdana, Tahoma, sans-serif;
@@ -149,21 +151,21 @@ footer h2 {
   font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: var(--purple);
+  color: var(--purple,#6444DB);
   font-size: 1.25rem;
 }
 
 /* Colors */
 .color-blue {
-  color: var(--blue);
+  color: var(--blue, #2C65F4);
 }
 
 .color-purple {
-  color: var(--purple);
+  color: var(--purple, #6444DB);
 }
 
 .color-neon-green {
-  color: var(--neon-green);
+  color: var(--neon-green, #D9F74F);
 }
 
 .color-dark-blue {
@@ -171,29 +173,33 @@ footer h2 {
 }
 
 .bg-neon-green {
-  background: var(--neon-green);
+  background: var(--neon-green, #D9F74F);
   color: var(--blue-black);
 }
 
 .bg-purple {
-  background: var(--purple);
+  background: var(--purple, #6444DB);
   color: var(--off-white);
 }
 
 .bg-blue {
-  background: var(--blue);
+  background: var(--blue, #2C65F4);
   color: var(--off-white);
 }
 
 .bg-dark-blue {
-  background: var(--dark-blue);
+  background: var(--dark-blue, #003480);
   color: var(--off-white);
 }
 
 .icon-blue {
-  color: var(--blue);
+  color: var(--blue, #2C65F4);
 }
 
 .icon-purple {
-  color: var(--purple);
+  color: var(--purple, #6444DB);
+}
+
+.icon-blue-black {
+  color: var(--blue-black, #0B1427);
 }

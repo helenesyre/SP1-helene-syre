@@ -38,7 +38,7 @@
     flex-direction: column;
     align-items: flex-start;
     border: 2px solid var(--Primary-Blue-Black, #0B1427);
-    box-shadow: 8px 8px 0px 0px #000;
+    box-shadow: 8px 8px 0px 0px #0B1427;
 }
 
 .gap-l {
@@ -69,7 +69,7 @@
 
 span.bold-text {
     font-weight: 700;
-    color: var(--blue);
+    color: var(--blue, #2C65F4);
 }
 
 .zigzag-flex {
@@ -104,9 +104,15 @@ span.bold-text {
     z-index: -1;
     margin: 0;
     translate: 5% 5%;
-}
 
-/* https://thebrandsmen.com/css-image-hover-effects/ */
+}/* Rotate image hover*/
+/* Code by: 
+10 SIMPLE CSS HOVER EFFECTS
+@publisher: Brandsmen
+@date: 2017-04-19
+@link: https://thebrandsmen.com/css-image-hover-effects/
+*/
+
 .rotate img:hover{
     -webkit-transform: rotateZ(-10deg);
     -ms-transform: rotateZ(-10deg);
@@ -171,11 +177,11 @@ span.bold-text {
     display: block;
     border: 2px solid var(--Primary-Blue-Black, #0B1427);
     border-bottom: none;
-  }
+}
 
 .event-grid a {
     text-decoration: none;
-  }
+}
 
 .event-card-info {
     display: flex;
@@ -185,16 +191,22 @@ span.bold-text {
     padding: 24px;
     flex: 1;
     border: 2px solid var(--Primary-Blue-Black, #0B1427);
-    background: var(--neon-green);
+    background: var(--neon-green, #D9F74F);
 }
 
 .event-card-info h3,
 .event-card-info p,
 .event-card-info h2 {
-    color: var(--blue-black);
+    color: var(--blue-black, #0B1427);
 }
 
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/line-clamp */
+/* Code by: 
+line-clamp
+@publisher: MDN contributors
+@date: 2025-02-04
+@link: https://developer.mozilla.org/en-US/docs/Web/CSS/line-clamp 
+*/
+
 .event-card-info p {
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -247,5 +259,5 @@ span.bold-text {
 .event-icon {
     width: auto;
     height: 56px;
-    color: var(--neon-green);
+    color: var(--neon-green, #D9F74F);
 }
