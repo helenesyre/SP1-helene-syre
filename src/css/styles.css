@@ -1,7 +1,4 @@
-/* Use import to split up your CSS into manageable chunks */
 @import url("./_reset.css");
-/* Files that are only needed to be imported are called partials */
-/* These are marked with an underscore: */
 @import url("./_variables.css");
 /* Feel free to add as many of these imports as you need */
 @import "imports/links.css";
@@ -24,7 +21,6 @@ body {
 
 img {
   width: 100%;
-  /*object-fit: cover;*/
 }
 
 /* Full width backgrounds */
@@ -204,7 +200,7 @@ header {
 
 nav {
   position: absolute;
-  top: 101.5%;  /* Places nav directly below header */
+  top: 101.5%;
   left: 0;
   width: 100%;
   height: 100vh;
@@ -244,7 +240,7 @@ footer li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%; /* Makes the full row clickable */
+  width: 100%;
 }
 
 .mobile-icon {
