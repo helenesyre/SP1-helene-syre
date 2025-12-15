@@ -82,7 +82,7 @@ form.contact-form label {
   font-style: normal;
 }
 
-/* Code by: 
+/* Code by:
 Changing font-family for placeholder (answer)
 @publisher: Arif
 @date: 2018-12-14
@@ -190,6 +190,11 @@ footer h2 {
 .bg-dark-blue {
   background: var(--dark-blue, #003480);
   color: var(--off-white);
+}
+
+.bg-white {
+  background: var(--off-white, #F6F5F2);
+  color: var(--blue-black);
 }
 
 .icon-blue {

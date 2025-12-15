@@ -34,7 +34,7 @@
 
 .card {
     display: flex;
-    padding: 24px 24px 40px 24px;
+    padding: 24px;
     flex-direction: column;
     align-items: flex-start;
     border: 2px solid var(--Primary-Blue-Black, #0B1427);
@@ -106,7 +106,7 @@ span.bold-text {
     translate: 5% 5%;
 
 }/* Rotate image hover*/
-/* Code by: 
+/* Code by:
 10 SIMPLE CSS HOVER EFFECTS
 @publisher: Brandsmen
 @date: 2017-04-19
@@ -200,11 +200,11 @@ span.bold-text {
     color: var(--blue-black, #0B1427);
 }
 
-/* Code by: 
+/* Code by:
 line-clamp
 @publisher: MDN contributors
 @date: 2025-02-04
-@link: https://developer.mozilla.org/en-US/docs/Web/CSS/line-clamp 
+@link: https://developer.mozilla.org/en-US/docs/Web/CSS/line-clamp
 */
 
 .event-card-info p {

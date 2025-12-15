@@ -23,7 +23,7 @@ form.contact-form label {
     color: var(--blue, #2C65F4);
 }
 
-#fname, #lname, #email, #phone-number, #message {
+#fname, #lname, #email, #phone-number, #message, #subject {
     display: flex;
     padding: 18px 16px;
     align-items: center;
@@ -54,4 +54,12 @@ form.contact-form label {
 
 #submit {
     margin-top: 24px;
+}
+
+input::placeholder {
+  transform: translateY(2px);
+}
+
+textarea::placeholder {
+  transform: translateY(-4px);
 }

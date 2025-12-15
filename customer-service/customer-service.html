@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ADD LATER">
+  <meta name="description"
+    content="Contact the Community Science Museum for help with opening hours, tickets, accessibility, school visits, and general inquiries. We're here to help you plan your visit.">
   <title>Community Science Museum | Customer Service</title>
   <!-- Favicon -->
   <link rel="icon" type="image/test-tube" href=".././assets/images/favicon.ico">
@@ -20,6 +21,7 @@
   <link rel="stylesheet" href="../src/css/styles.css">
   <link rel="stylesheet" href="../src/css/index.css">
   <link rel="stylesheet" href="../src/css/subpages.css">
+  <link rel="stylesheet" href="./customer-service.css">
   <link rel="stylesheet" href="../src/css/media.css">
 </head>
 
@@ -158,7 +160,7 @@
           </a>
         </li>
         <li>
-          <a href="../events.html" class="menu-menu neon-green-hover active">
+          <a href="../events.html" class="menu-menu neon-green-hover">
             Events
             <svg class="mobile-icon" role="img" aria-label="Events icon" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 25">
@@ -439,8 +441,92 @@
     </nav>
   </header>
 
-  <main class="container">
-    <h1>Customer Service</h1>
+  <main class="">
+    <section class="container">
+      <div class="">
+        <div class="secondary-hero hero-padding-alt">
+          <h1 class="hero-title color-purple">Customer Service</h1>
+          <p>Welcome to the Community Science Museum! We're here to help make your visit inspiring, educational, and
+            enjoyable. Below you'll find answers to common questions about visiting the museum. If you need further
+            assistance, feel free to contact us.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-blue">
+      <div class="container">
+        <div class="card-grid-customerservice">
+          <div class="secondary-card bg-white">
+            <div>
+              <h2 class="color-purple">Contact Us</h2>
+              <p class="bodytext">If you have questions about your visit, exhibitions, or group bookings, we’d love to
+                hear from you.</p>
+              <p class="bodytext"><span class="bold-text">Email</span>: info@csm.org</p>
+              <p class="bodytext"><span class="bold-text">Phone</span>: +47 12 34 56 78</p>
+            </div>
+          </div>
+          <div class="secondary-card bg-white">
+            <div>
+              <h2 class="color-purple">Visit Us</h2>
+              <p class="bodytext"><span class="bold-text">Public transport</span>: Bus and tram stops are within walking
+                distance of the
+                museum.</p>
+              <p class="bodytext"><span class="bold-text">Parking</span>: Limited parking is available nearby. We
+                recommend using public
+                transport when possible.</p>
+            </div>
+          </div>
+          <div class="secondary-card bg-white">
+            <div>
+              <h2 class="color-purple">Address</h2>
+              <p class="bodytext">Community Science Museum, Kirsten Flagstads plass 1, 0150 Oslo.</p>
+            </div>
+          </div>
+          <div class="secondary-card bg-white">
+            <div>
+              <h2 class="color-purple">Tickets & Cancellations</h2>
+              <p class="bodytext">Tickets are non-refundable, but you may reschedule your visit up to 24 hours in
+                advance by contacting our customer service team.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="center-form container">
+      <div class="center-section">
+        <h2 class="center-title title-padding-top color-blue">Contact us </h2>
+        <p class="section-info center-info-l index-padding-bottom ">Have a question about your visit, exhibitions, or
+          group bookings? Send us a message and we'll get back to you as soon as possible.</p>
+      </div>
+
+      <form action="#" method="GET" class="contact-form">
+        <div class="content-column">
+          <label for="fname">Full name</label>
+          <input type="text" id="fname" name="fname" title="Enter your full name" placeholder="Gina Holland" required
+            class="input-style">
+        </div>
+        <div class="content-column">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" title="Enter your email" placeholder="ginaholland@gmail.com"
+            required class="input-style">
+        </div>
+        <div class="content-column">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" title="Enter the subject" placeholder="Subject of your message"
+            required class="input-style">
+        </div>
+        <div class="content-column">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" title="Enter a message" placeholder="Leave us a message..."
+            class="message input-style"></textarea>
+        </div>
+        <div>
+          <input type="submit" id="submit" value="Send message" class="cta-l bg-neon-green">
+        </div>
+      </form>
+    </section>
   </main>
 
   <footer>

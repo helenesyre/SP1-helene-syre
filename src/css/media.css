@@ -124,7 +124,7 @@
         width: 50%;
     }
 
-    
+
     /* Split section */
     .split-image {
         aspect-ratio: 3/2;
@@ -156,7 +156,7 @@
         margin: 0 calc(var(--ipad-padding-x, 80px) *-1);
         padding: 0 var(--ipad-padding-x, 80px);
     }
-    
+
     .side-content-padding {
         padding: 0 calc(var(--ipad-padding-x, 80px));
         padding-bottom: 56px;
@@ -187,7 +187,8 @@
     }
 
     /* Evolution - exibition */
-    .card-grid {
+    .card-grid,
+    .card-grid-customerservice {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 32px;
     }
@@ -216,7 +217,7 @@
         grid-template-columns: repeat(2, 1fr);
         column-gap: 24px;
     }
-    
+
     /* About us */
     /* Contact */
     .contact-alt {
@@ -232,7 +233,7 @@
     .send-mail-mobile{
         display: none;
     }
-    
+
     .send-mail-desktop {
         display: inline-block;
     }
@@ -274,7 +275,7 @@
         font-size: 1.25rem;
     }
 }
-  
+
 /* Desktop */
 @media (min-width: 1200px) {
     .container {
@@ -387,7 +388,7 @@
     }
 
     /* Footer */
-    /* Footer borders */    
+    /* Footer borders */
     .logo-area {
         padding-bottom: 40px;
         padding-top: 24px;
@@ -514,7 +515,7 @@
     .event-article-img {
         padding-bottom: 0;
     }
-    
+
     .special-event-flex h3 {
         font-size: 1.5rem;
     }
@@ -553,7 +554,7 @@
         height: auto;
         max-width: 100%;
     }
-    
+
     .fizzik-mobile,
     .fizzik-mobile-2 {
         display: none;
@@ -571,7 +572,8 @@
     }
 
     /* Evolution - exibition */
-    .card-grid {
+    .card-grid,
+    .card-grid-customerservice {
         grid-template-columns: repeat(4, 1fr);
     }
 
@@ -657,7 +659,7 @@
     .involvement-section-reverse img {
         border-bottom: 0;
     }
-    
+
     .involvement-type,
     .involvement-section img {
         border-right: 2px solid var(--blue-black, #0B1427);
